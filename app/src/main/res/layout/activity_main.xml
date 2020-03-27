@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/main_toolbar_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:text="Toolbar Title"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="7dp"
+            android:padding="6dp">
+
+
+
+            <!-- Information of corona virus-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardInformationCorona"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_information_coronavirus"
+                    android:textColor="@color/color_three"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <!-- How To Protect Yourself-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardHowToProtect"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_how_to_protect_your"
+                    android:textColor="@color/color_two"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Infection World Map Dashboard-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardInfectedWorldMapDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_infection_world_map_dashboard"
+                    android:textColor="@color/color_eight"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Infection World Map Dashboard-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardInfectedWorldMapSituation"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_infection_world_map_situation"
+                    android:textColor="@color/color_eleven"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Infection World Map Dashboard-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardHealthMap"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_health_map"
+                    android:textColor="@color/color_five"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- About_us-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:foreground="@drawable/card_ripple_bg"
+                    app:cardBackgroundColor="@color/main_card_color"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/card_heading_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_about_us"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+
+                <!-- Share Us-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_share_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:clickable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:foreground="@drawable/card_ripple_bg"
+                    app:cardBackgroundColor="@color/main_card_color"
+                    app:cardCornerRadius="6dp"
+                    app:cardElevation="5dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/card_heading_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_share_us"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_disclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:foreground="@drawable/card_ripple_bg"
+                app:cardBackgroundColor="@color/main_card_color"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_margin="8dp">
+
+                <TextView
+                    style="@style/card_heading_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_disclaimer"
+                    android:textColor="@color/color_six"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

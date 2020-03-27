@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<us.egek.discrollview2.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#303030"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <us.egek.discrollview2.DiscrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="#232323"
+            android:textColor="@color/color_two"
+            android:padding="25dp"
+            android:textSize="46sp"
+            android:gravity="center"
+            android:text="@string/text_how_to_protect_your_self_prevent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#8BC34A"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="15dp"
+            android:layout_gravity="start"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight|fromBottom"
+            android:src="@drawable/coronaspread"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#8BC34A"
+            tools:ignore="MissingPrefix" />
+
+
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_1"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="end"
+            android:padding="15dp"
+            android:src="@drawable/covid19virus"
+            discrollve:discrollve_translation="fromLeft"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:src="@drawable/senitiser"
+            discrollve:discrollve_translation="fromLeft"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_2"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="15dp"
+            android:src="@drawable/distance"
+            discrollve:discrollve_translation="fromRight"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_3"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:src="@drawable/avoid"
+            discrollve:discrollve_translation="fromLeft"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_4"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="15dp"
+            android:src="@drawable/mask"
+            discrollve:discrollve_translation="fromRight"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_5"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:src="@drawable/stayhome"
+            discrollve:discrollve_translation="fromLeft"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_6"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_gravity="end"
+            android:padding="15dp"
+            android:src="@drawable/localauth"
+            discrollve:discrollve_translation="fromRight"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_7"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_gravity="start"
+            android:padding="15dp"
+            android:src="@drawable/latestupdate"
+            discrollve:discrollve_translation="fromLeft"
+            tools:ignore="MissingPrefix" />
+
+
+        <TextView
+            style="@style/how_heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eleven"
+            android:text="@string/text_how_to_protect_your_self_prevent_answer_8"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#8BC34A"
+            tools:ignore="MissingPrefix" />
+
+
+        <!-- Stay Healthy-->
+
+        <LinearLayout
+            android:id="@+id/stay_he"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#191919"
+            android:elevation="8dp"
+            android:gravity="center"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            tools:ignore="MissingPrefix"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/how_heading_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="@color/color_two"
+                android:text="@string/text_stay_healthy"
+                android:textSize="56sp"/>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#ff6f69"
+            tools:ignore="MissingPrefix" />
+
+        <!-- Disclaimer-->
+        <TextView
+            style="@style/heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eight"
+            android:text="@string/text_disclaimer"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            style="@style/heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="start"
+            android:background="#191919"
+            android:textColor="@color/color_eight"
+            android:text="@string/text_data_disclaimer"
+            android:textSize="14sp"
+            android:clickable="true"
+            tools:ignore="KeyboardInaccessibleWidget,MissingPrefix" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            discrollve:discrollve_fromBgColor="#82B1FF"
+            discrollve:discrollve_toBgColor="#8BC34A"
+            tools:ignore="MissingPrefix" />
+
+        <LinearLayout
+            android:id="@+id/bottom_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#d3d3d3"
+            android:elevation="8dp"
+            android:gravity="center"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            tools:ignore="MissingPrefix"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_lionheartapps" />
+
+            <TextView
+                style="@style/how_heading_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="11dp"
+                android:text="@string/developer_made"
+                android:textColor="#858585"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </us.egek.discrollview2.DiscrollViewContent>
+
+
+</us.egek.discrollview2.DiscrollView>

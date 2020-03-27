@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".Splash">
+
+    <LinearLayout
+        android:id="@+id/bottom_developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#d3d3d3"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/ic_lionheartapps" />
+
+        <TextView
+            style="@style/heading_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="11dp"
+            android:text="@string/developer_copyright"
+            android:textColor="#858585"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_developer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_marginBottom="120dp">
+
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:duration="2200"
+            app:pathStrokeColor="@color/color_three"
+            app:textInCenter="true"
+            app:textSize="48sp" />
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:duration="2200"
+            app:pathStrokeColor="@color/color_eight"
+            app:textInCenter="true"
+            app:textSize="46sp" />
+
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:duration="2800"
+            app:pathStrokeColor="@color/color_two"
+            app:textInCenter="true"
+            app:textSize="44sp" />
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:duration="2800"
+            app:pathStrokeColor="@color/color_six"
+            app:textInCenter="true"
+            app:textSize="34sp" />
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:duration="2800"
+            app:pathStrokeColor="@color/color_one"
+            app:textInCenter="true"
+            app:textSize="42sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

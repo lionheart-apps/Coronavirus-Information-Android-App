@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#191919</color>
+    <color name="colorAccent">#FF334A</color>
+
+
+    <color name="white">#fff</color>
+
+    <color name="main_card_color">#232323</color>
+    <color name="sub_card_color">#232323</color>
+
+    <color name="color_heading_text">#ff6f69</color>
+    <color name="color_text">#ffeead</color>
+
+    <color name="color_one">#82B1FF</color>
+    <color name="color_two">#ffeead</color>
+    <color name="color_three">#ff6f69</color>
+    <color name="color_five">#9E82FF</color>
+    <color name="color_six">#858585</color>
+    <color name="color_eight">#8BC34A</color>
+    <color name="color_eleven">#C1C9CE</color>
+
+
+</resources>
